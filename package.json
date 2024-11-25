@@ -1,0 +1,51 @@
+{
+  "name": "proj1",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@privy-io/react-auth": "^1.99.1",
+    "@privy-io/wagmi-connector": "^0.1.13",
+    "@radix-ui/react-scroll-area": "^1.2.2",
+    "@radix-ui/react-slot": "^1.1.1",
+    "@react-three/fiber": "^8.17.12",
+    "@tabler/icons-react": "^3.28.1",
+    "@types/three": "^0.172.0",
+    "@types/uuid": "^10.0.0",
+    "ai": "^4.0.36",
+    "axios": "^1.7.9",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "framer-motion": "^11.18.2",
+    "js-cookie": "^3.0.5",
+    "lucide-react": "^0.471.1",
+    "next": "14.2.16",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-element-to-jsx-string": "^15.0.0",
+    "react-icons": "^5.4.0",
+    "react-markdown": "^9.0.3",
+    "react-nice-avatar": "^1.5.0",
+    "react-router-dom": "^7.1.1",
+    "tailwind-merge": "^2.6.0",
+    "tailwindcss-animate": "^1.0.7",
+    "three": "^0.172.0",
+    "uuid": "^11.0.5"
+  },
+  "devDependencies": {
+    "@types/js-cookie": "^3.0.6",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.16",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
+  }
+}
