@@ -9,7 +9,6 @@
   font-style: normal;
   font-display: swap; /* Added for better font loading performance */
 }
-
 /* Update the body font-family to prioritize OffBit */
 body {
   font-family: 'OffBit', Arial, Helvetica, sans-serif;
