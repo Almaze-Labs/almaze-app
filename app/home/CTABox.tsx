@@ -23,7 +23,6 @@ export default function CTABox() {
   
   return (
     <section>
-      <div className="mx-auto container max-w-[1128px] px-8">
         <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
@@ -32,7 +31,6 @@ export default function CTABox() {
           
           className="relative p-16 bg-[#1DA2FF] rounded-2xl overflow-hidden"
         >
-          <div className="relative z-10 flex flex-col items-center">
             <h2 className="font-offbit max-w-[750px] min-h-[96px] text-5xl text-center text-white">
               <TypingAnimation startOnView={false}>
                 SELF EVOLVING AGI THAT HELPS YOU COMPLETE MUNDANE TASKS
