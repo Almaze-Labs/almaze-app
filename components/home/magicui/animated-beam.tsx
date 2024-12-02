@@ -34,7 +34,6 @@ export const AnimatedBeam: React.FC<AnimatedBeamProps> = ({
   reverse = false, // Include the reverse prop
   duration = Math.random() * 3 + 4,
   delay = 0,
-  pathColor = "gray",
   pathWidth = 2,
   pathOpacity = 0.2,
   gradientStartColor = "#ffaa40",
@@ -177,7 +176,6 @@ export const AnimatedBeam: React.FC<AnimatedBeamProps> = ({
           <stop stopColor={gradientStartColor} stopOpacity="0"></stop>
           <stop stopColor={gradientStartColor}></stop>
           <stop offset="32.5%" stopColor={gradientStopColor}></stop>
-          <stop
             offset="100%"
             stopColor={gradientStopColor}
             stopOpacity="0"
