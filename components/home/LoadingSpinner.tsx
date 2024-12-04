@@ -5,7 +5,6 @@ const LoadingSpinner = () => {
           Loading
         </div>
     </div>
-  );
 };
 
 export default LoadingSpinner;

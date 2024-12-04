@@ -57,7 +57,6 @@ export async function POST(req) {
           headers: {
             'Content-Type': 'application/json',
           },
-          body: JSON.stringify({
             message,
             session_id: sessionId,
           }),
