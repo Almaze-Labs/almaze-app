@@ -181,7 +181,6 @@ const MessageBubble = ({ message, userName, avatarConfig }: MessageBubbleProps) 
                             {match[1]}
                           </span>
                         )}
-                        <button
                           onClick={() => handleCodeCopy(code)}
                           className="opacity-0 group-hover:opacity-100 transition-opacity bg-white hover:bg-gray-50 text-gray-600 px-2 py-1 rounded text-xs flex items-center gap-1 shadow-sm"
                         >
@@ -214,9 +213,7 @@ const MessageBubble = ({ message, userName, avatarConfig }: MessageBubbleProps) 
                 },
                 p: ({ children }) => (
                   <p className="whitespace-pre-wrap break-words">{children}</p>
-                ),
               }}
-            >
               {message.content}
             </ReactMarkdown>
           </div>
