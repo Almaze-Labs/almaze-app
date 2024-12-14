@@ -3,7 +3,6 @@ import { LucideIcon } from "lucide-react";
 
 interface IntegrationButtonProps {
   Icon: LucideIcon;
-  label: string;
   color: string;
   onClick: () => void;
 }

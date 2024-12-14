@@ -1,6 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
 
-export function middleware(request: NextRequest) {
   // console.log("Request Pathname:", request.nextUrl.pathname);
   // console.log("Authentication Cookie:", request.cookies.get("privy-authenticated")?.value);
 
@@ -22,7 +21,6 @@ export function middleware(request: NextRequest) {
 
   if (!isAuthenticated) {
     // console.log("User is not authenticated. Redirecting...");
-    const url = new URL("/auth", request.url);
     return NextResponse.redirect(url);
   }
 
@@ -31,6 +29,5 @@ export function middleware(request: NextRequest) {
 }
 
 // Matcher configuration for middleware
-export const config = {
   matcher: ["/:path*"], // Apply middleware to all routes
 };

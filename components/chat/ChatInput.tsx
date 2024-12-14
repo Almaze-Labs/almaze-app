@@ -6,7 +6,6 @@ interface ChatInputProps {
 }
 
 export const ChatInput = ({ input, setInput, handleSubmit, isLoading }: ChatInputProps) => (
-  <form onSubmit={handleSubmit} className="relative">
     <input
       type="text"
       value={input}
