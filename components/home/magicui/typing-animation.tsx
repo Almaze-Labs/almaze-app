@@ -47,7 +47,6 @@ export function TypingAnimation({
           observer.disconnect();
         }
       },
-      { threshold: 0.1 }
     );
 
     if (elementRef.current) {
@@ -64,7 +63,6 @@ export function TypingAnimation({
     const typingEffect = setInterval(() => {
       if (i < children.length) {
         setDisplayedText(children.substring(0, i + 1));
-        i++;
       } else {
         clearInterval(typingEffect);
       }
