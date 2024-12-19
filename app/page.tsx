@@ -10,13 +10,11 @@ import { Providers } from "@/components/providers/privy-provider";
 
 export default function Home() {
   return (
-    <Providers>
     <main>
       <Header />
       <HeroSection />
       <FeaturesSection />
       <AgentsSection />
-      <TokenomicsSection />
       <RoadmapSection />
       {/* <CTABox /> */}
       <Footer />
