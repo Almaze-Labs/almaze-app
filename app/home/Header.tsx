@@ -17,7 +17,6 @@ export default function Header() {
 
   useEffect(() => {
     if (privy?.ready) {
-      if (privy.authenticated) {
         localStorage.setItem('useremail', privy.user?.email?.address ?? "Guest");
         Cookies.set('privy-authenticated', 'true', { path: '/', expires: 1 });
         router.push('/dashboard');

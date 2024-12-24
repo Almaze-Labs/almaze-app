@@ -26,7 +26,6 @@ export default function AgentsSection() {
     {
       icon: (
         <svg
-          width="36"
           height="36"
           viewBox="0 0 36 36"
           fill="none"
@@ -211,7 +210,6 @@ export default function AgentsSection() {
             <br />
         </p>
 
-        <div ref={containerRef} className="relative flex flex-col items-center">
           <div ref={logoRef} className="relative z-10 mb-56 flex">
             <Image src={img1} alt="" className="w-[86px]" />
           </div>
@@ -293,7 +291,6 @@ export default function AgentsSection() {
                 </div>
               );
             })}
-          </div>
         </div>
       </motion.div>
     </section>
