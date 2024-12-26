@@ -1,3 +1,4 @@
+"use client";
 
 // import Image from "next/image";
 // import logoImg from "@/public/assets/images/brand/logo.svg";
@@ -17,6 +18,7 @@ export default function Footer() {
         <div className="flex items-center gap-3">
           <div
             className="w-[42px] h-[2px] rounded-md flex justify-center items-center"
+          >
             {/* <svg
               width="20"
               height="20"
