@@ -13,6 +13,7 @@
     "@privy-io/wagmi-connector": "^0.1.13",
     "@radix-ui/react-scroll-area": "^1.2.2",
     "@radix-ui/react-slot": "^1.1.1",
+    "@react-three/fiber": "^8.17.12",
     "@tabler/icons-react": "^3.28.1",
     "@types/three": "^0.172.0",
     "@types/uuid": "^10.0.0",
