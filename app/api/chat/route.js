@@ -52,7 +52,6 @@ export async function POST(req) {
     try {
       const response = await fetchWithRetry(
         `${API_URL}/api/chat`,
-        {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
@@ -83,7 +82,6 @@ export async function POST(req) {
             error: 'Unable to connect to the backend server. Please try again later.',
             retryable: true 
           },
-          { status: 503 }
         );
       }
 
