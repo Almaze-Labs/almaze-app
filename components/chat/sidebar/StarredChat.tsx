@@ -14,14 +14,12 @@ interface StarredChatProps {
 export const StarredChat = ({ title, isStarred, onClick, onStar }: StarredChatProps) => (
   <motion.button 
     className="w-full flex items-center justify-between p-2 hover:bg-gray-50 rounded-lg group"
-    onClick={onClick}
     whileHover={{ scale: 1.02 }}
     whileTap={{ scale: 0.98 }}
   >
     <span className="text-sm text-gray-700 truncate">{title}</span>
     <Star 
       className={`w-4 h-4 ${isStarred ? 'text-blue-500' : 'text-gray-300 opacity-0 group-hover:opacity-100'}`}
-      onClick={(e) => {
         e.stopPropagation();
         onStar(e);
       }}
