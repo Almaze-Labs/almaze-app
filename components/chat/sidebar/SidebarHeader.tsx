@@ -11,7 +11,6 @@ export const SidebarHeader = ({ onNewChat, logo }: SidebarHeaderProps) => (
   <div className="p-4 border-b">
     <div className="flex items-center justify-between mb-10">
       <Image src={logo} alt="Almaze Logo" width={26}  />
-      <div className="flex items-center space-x-4 mt-1">
           <a href="https://x.com/almaze_ai" target='_blank'>
             <RiTwitterXLine className='cursor-pointer text-gray-600 hover:text-gray-800 transition-colors'/>
           </a>
