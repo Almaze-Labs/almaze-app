@@ -145,7 +145,6 @@ const MessageBubble = ({ message, userName, avatarConfig }: MessageBubbleProps) 
                       animate={{ scale: 1 }}
                       exit={{ scale: 0 }}
                     >
-                      <Check className="w-4 h-4 text-green-500" />
                     </motion.div>
                   ) : (
                     <Copy className="w-4 h-4 text-gray-500" />
@@ -179,7 +178,6 @@ const MessageBubble = ({ message, userName, avatarConfig }: MessageBubbleProps) 
                         {match && (
                           <span className="text-xs text-gray-500 bg-white/80 px-2 py-1 rounded">
                             {match[1]}
-                          </span>
                         )}
                           onClick={() => handleCodeCopy(code)}
                           className="opacity-0 group-hover:opacity-100 transition-opacity bg-white hover:bg-gray-50 text-gray-600 px-2 py-1 rounded text-xs flex items-center gap-1 shadow-sm"
@@ -207,7 +205,6 @@ const MessageBubble = ({ message, userName, avatarConfig }: MessageBubbleProps) 
                             <code {...props}>{code}</code>
                           </pre>
                         </div>
-                      </div>
                     </div>
                   );
                 },
