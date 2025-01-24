@@ -52,6 +52,7 @@ export async function POST(req) {
     try {
       const response = await fetchWithRetry(
         `${API_URL}/api/chat`,
+        {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
